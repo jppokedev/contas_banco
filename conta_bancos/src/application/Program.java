@@ -29,7 +29,7 @@ public class Program {
 			System.out.println("Cliente = " + contaFonseca.titular);
 			System.out.println("Saldo = " + contaFonseca.saldo);
 		}else {
-			System.out.println("Informe o valor a ser depositado");
+			System.out.println("Informe o valor a ser depositado:");
 			Double valor;
 			valor = sc.nextDouble();
 			contaFonseca.deposito(valor);
