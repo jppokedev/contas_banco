@@ -4,7 +4,7 @@ public class Contas {
 
 	public Integer conta;
 	public Double saldo ; 
-	public String cliente;
+	public Cliente titular;
 	
 	public void deposito (double valor) {
 		saldo += valor;
